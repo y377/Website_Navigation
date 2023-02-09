@@ -1,0 +1,10 @@
+{% if site.alert %}
+<div class="container">
+    <div class="row px-5">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>主题</strong>页头弹出框，作为{{ site.alert }}（站点变量）使用，方便后期维护
+            <button type="button" class="btn-close shadow-none" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+{% endif %}

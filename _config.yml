@@ -1,0 +1,47 @@
+url: "https://nav.beep.vip" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "网址导航" # the name of your site, e.g. ACME Corp.
+
+timezone: Asia/Shanghai
+lang: zh
+encoding: UTF-8
+
+permalink: pretty #:title :name都可以；定义page页面的永久链接，比如about.md；blog.md；官方文档中不适用于post等等
+
+mail: 
+phone: '<i class="bi bi-1-square-fill"></i><i class="bi bi-7-square-fill"></i><i class="bi bi-7-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-5-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-3-square-fill"></i>'
+localtion_address: 
+#record_number: 苏ICP备20223232号-99 #备案号
+record_url: https://beian.miit.gov.cn/#/Integrated/recordQuery
+public_security_number: #苏公网安备32108102023669号
+public_security_url: https://www.beian.gov.cn/portal/registerSystemInfo
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-admin
+  - jekyll-timeago
+  - jekyll-toc
+
+toc:
+  min_level: 2
+  max_level: 5
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: list-group list-group-flush
+  sublist_class: list-group list-group-flush border-start border-danger border-2
+  item_class: text-info list-group-item #py-0 py-sm-0 py-md-0 py-lg-0 py-xl-0 py-xxl-0 lh-lg 
+  item_prefix: toc-
+
+jekyll_timeago:
+  depth: 1
+  threshold: 0.01
+#  translations_path: "data/timeago_zh_hans.yaml"
+  default_locale: 'zh_hans'
+  available_locales:
+    - 'en'
+    - 'zh_hans'
+
+ssl: https://
+
+alert: #header popup
