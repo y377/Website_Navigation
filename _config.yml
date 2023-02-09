@@ -9,7 +9,7 @@ encoding: UTF-8
 permalink: pretty #:title :name都可以；定义page页面的永久链接，比如about.md；blog.md；官方文档中不适用于post等等
 
 mail: 
-phone: '<i class="bi bi-1-square-fill"></i><i class="bi bi-7-square-fill"></i><i class="bi bi-7-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-5-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-3-square-fill"></i>'
+#phone: '<i class="bi bi-1-square-fill"></i><i class="bi bi-7-square-fill"></i><i class="bi bi-7-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-5-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-1-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-8-square-fill"></i><i class="bi bi-3-square-fill"></i>'
 localtion_address: 
 #record_number: 苏ICP备20223232号-99 #备案号
 record_url: https://beian.miit.gov.cn/#/Integrated/recordQuery
