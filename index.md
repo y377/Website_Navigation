@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "临时用"
+title: "jekyll网址导航"
 ---
-<div class="container p-5">
+<div class="container py-5 px-0">
     <div class="row">
         <div class="input-group">
             <span class="input-group-text text-success-emphasis"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
