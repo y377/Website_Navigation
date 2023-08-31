@@ -12,21 +12,6 @@ document.querySelector('html').setAttribute('data-bs-theme', theme);
 function setTheme(theme) {
     document.documentElement.setAttribute('class', `theme-${theme}`);
     document.querySelector('html').setAttribute('data-bs-theme', theme);
-    // 根据主题设置导航栏背景颜色和文本颜色
-    navbar.classList.remove('navbar-light', 'bg-light', 'navbar-dark', 'bg-dark');
-    if (theme === 'dark') {
-        navbar.classList.add('navbar-dark', 'bg-dark');
-        themeToggleBtns.forEach((btn) => {
-            btn.querySelector('i').setAttribute('class', 'bi bi-sun-fill text-warning');
-            btn.setAttribute('aria-label', 'Switch to light mode');
-        });
-    } else {
-        navbar.classList.add('bg-light');
-        themeToggleBtns.forEach((btn) => {
-            btn.querySelector('i').setAttribute('class', 'bi bi-moon-fill');
-            btn.setAttribute('aria-label', 'Switch to dark mode');
-        });
-    }
 }
 
 // 初始化主题
