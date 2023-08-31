@@ -18,6 +18,11 @@
     <header class="container-fuild">
         <div class="row m-0">
             <time id="nowDate" class="py-1 text-secondary" datetime=""><i class="bi bi-calendar text-info-emphasis px-1"></i></time>
+            <div class="d-flex">
+                <button class="btn btn-none" data-bs-toggle="theme" id="theme-toggle">
+                <i class="bi bi-sun-fill"></i>
+            </button>
+            </div>
             <script>
             const nowDate = document.getElementById('nowDate');
             nowDate.setAttribute("datetime", dayjs().locale('zh-cn').format('YYYY-MM-DD HH:mm:ss dddd'));
