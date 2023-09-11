@@ -166,7 +166,7 @@
    
     - name: Cloudflare
       url: www.cloudflare.com
-      icon: 
+      icon: cloudflare.png
    
     - name: AWS云（亚马逊）
       url: aws.amazon.com
