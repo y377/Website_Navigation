@@ -38,9 +38,14 @@
     - name: 国家法律法规数据库
       url: flk.npc.gov.cn
       icon: <i class="bi bi-database fs-2 text-danger"></i>
+ 
+    - name: 国家行政法规库
+      url:  www.gov.cn/zhengce/xzfgk
+      icon: <i class="bi bi-database fs-2 text-danger"></i>
+
     - name: 国家规章库
       url: www.gov.cn/zhengce/xxgk/gjgzk/ssgz.htm
-
+      icon: <i class="bi bi-database fs-2 text-danger"></i>
 
     - name: PC微信下载
       url: pc.weixin.qq.com
