@@ -101,6 +101,9 @@
       url: ssl-config.mozilla.org
     - name: icon图标大全
       url: yesicon.app
+    - name: 法律分基
+      url: wiki.xin
+      icon: <img src="https://wiki.xin/assets/fa_icon.png">
 - title: AI专区
   link:
     - name: Claude 2.0
