@@ -9,10 +9,10 @@
       icon: <i class="bi bi-bootstrap-fill fs-2" style="color:#712cf9;"></i>
     - name: vue
       url: vuejs.org
-      icon: <svg class="logo" viewBox="0 0 128 128" width="32" height="32" data-v-4a9de85b=""><path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-4a9de85b=""></path><path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-4a9de85b=""></path></svg>
+      icon: <svg class="logo" viewBox="0 0 128 128" width="35" height="35" data-v-4a9de85b=""><path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z" data-v-4a9de85b=""></path><path fill="#35495e" d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z" data-v-4a9de85b=""></path></svg>
     - name: vueuse
       url: vueuse.org
-      icon: vueuse.svg
+      icon_image: vueuse.svg
     - name: 谷歌翻译
       url: translate.google.com
       icon_image: googlelogo_clr_74x24px.svg
