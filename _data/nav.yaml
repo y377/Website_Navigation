@@ -109,6 +109,9 @@
     - name: 法律分基
       url: wiki.xin
       icon: <img src="https://wiki.xin/assets/fa_icon.png">
+    - name: 月子知音
+      url: www.yzzy.cc
+      icon: <img src="https://www.yzzy.cc/assets/favicon64.png">
 - title: AI专区
   link:
     - name: Claude 2.0
