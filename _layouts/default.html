@@ -3,14 +3,15 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <!--<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">-->
-    <link crossorigin="anonymous" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" href="https://lib.baomitu.com/twitter-bootstrap/5.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link crossorigin="anonymous" integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g==" href="https://lib.baomitu.com/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
-    <script crossorigin="anonymous" integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g==" src="https://lib.baomitu.com/twitter-bootstrap/5.3.1/js/bootstrap.min.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-q4Xn+ZU2K+dqJPL8a3TiyGsDa31IkR/rLt/w+fy8jLrx8TdXj0dLM1Aq4aPXnOOKxHEya/bD9DePDB2DHm4jJQ==" src="https://lib.baomitu.com/dayjs/1.11.9/dayjs.min.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-t+T+l2qHf4oOrpwGDg3S8lC8AdXeAwkjwaGtUYpbbmc6hs4zHIV9LCO2JXbeCk8THKuKz+0OLYYf8Mh6vg74Nw==" src="https://lib.baomitu.com/dayjs/1.11.9/locale/zh-cn.min.js"></script>
+    <link crossorigin="anonymous" href="https://lib.baomitu.com/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://lib.baomitu.com/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://lib.baomitu.com/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script crossorigin="anonymous" src="https://lib.baomitu.com/dayjs/1.11.9/dayjs.min.js"></script>
+    <script crossorigin="anonymous" src="https://lib.baomitu.com/dayjs/1.11.9/locale/zh-cn.min.js"></script>
     {% seo %}
 </head>
 
@@ -18,8 +19,8 @@
     <header class="container-fuild">
         <div class="row m-0">
             <div class="d-flex">
-            <time id="nowDate" class="py-1 text-secondary" datetime=""><i class="bi bi-calendar text-info-emphasis px-1"></i></time>
-            <button class="btn btn-none mx-3" data-bs-toggle="theme" id="theme-toggle"><i class="bi bi-sun-fill"></i></button>
+                <time id="nowDate" class="py-1 text-secondary" datetime=""><i class="bi bi-calendar text-info-emphasis px-1"></i></time>
+                <button class="btn btn-none mx-3" data-bs-toggle="theme" id="theme-toggle"><i class="bi bi-sun-fill"></i></button>
             </div>
             <script>
             const nowDate = document.getElementById('nowDate');
@@ -27,7 +28,6 @@
             nowDate.insertAdjacentHTML('beforeend', dayjs().locale('zh-cn').format('YYYY-MM-DD dddd'));
             </script>
         </div>
-
         {% include header.html %}
     </header>
     <main class="container-fluid">
