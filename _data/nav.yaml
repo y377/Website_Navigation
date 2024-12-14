@@ -104,14 +104,18 @@
       
     - name: ssl-config.mozilla.org
       url: ssl-config.mozilla.org
+      
     - name: icon图标大全
       url: yesicon.app
+      
     - name: 法律分基
-      url: wiki.xin
-      icon: <img src="https://wiki.xin/assets/fa_icon.png">
+      url: www.wiki.xin
+      icon: <img src="https://www.wiki.xin/assets/fa_icon.png">
+      
     - name: 月子知音
       url: www.yzzy.cc
       icon: <img src="https://www.yzzy.cc/assets/favicon64.png">
+      
     - name: 零代码Web前端工具网
       url: www.lingdaima.com
 
