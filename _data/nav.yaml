@@ -235,4 +235,10 @@
     
     - name: 韩国PT站
       url: avistaz.to
+      #icon_image: tccf_logo.png ptchina.org
+    - name: 铂金学院
+      url: ptchina.org
       #icon_image: tccf_logo.png
+    - name: carpt
+      url: carpt.net
+      #icon_image: tccf_logo.png carpt.net      
