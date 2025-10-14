@@ -118,6 +118,9 @@
       
     - name: 零代码Web前端工具网
       url: www.lingdaima.com
+    - name: 安证书
+      url: anssl.cn
+      icon: <img src="/assets/icons/anssl.png" style="height:32px;width:32px;">
 
 - title: AI专区
   link:
@@ -247,3 +250,4 @@
       url: rousi.zip
       #icon_image: tccf_logo.png carpt.net
       
+
