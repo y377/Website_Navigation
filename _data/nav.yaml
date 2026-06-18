@@ -216,17 +216,10 @@
       url: hdsky.me
       icon_image: hdskylogo_20150110.png
 
-    - name: 兽组
-      url: pt.hd4fans.org
-      icon_title: <span class="fs-3 text-warning">HD4FANS
 
     - name: 馒头
       url: kp.m-team.cc
       icon_image: MT_logo.png
-
-    - name: pt之友
-      url: pterclub.com
-      icon_image: ptclub_logo.png
 
     - name: pthome
       url: pthome.net
@@ -239,15 +232,10 @@
     - name: 韩国PT站
       url: avistaz.to
       #icon_image: tccf_logo.png ptchina.org
-    - name: 铂金学院
-      url: ptchina.org
-      #icon_image: tccf_logo.png
+
     - name: carpt
       url: carpt.net
       #icon_image: tccf_logo.png carpt.net
-      
-    - name: rousi
-      url: rousi.zip
-      #icon_image: tccf_logo.png carpt.net
+
       
 
